@@ -1,0 +1,17 @@
+[{
+    "name":"keerthana",
+    "age":25,
+    "city":"bangalore",
+    "amount":1500
+},{
+    "name":"madhu",
+    "age":23,
+    "city":"mumbai",
+    "amount":2000
+},{
+    
+    "name":"gokul",
+    "age":26,
+    "city":"delhi",
+    "amount":1000
+}]
