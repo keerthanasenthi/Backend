@@ -3,7 +3,9 @@ var express=require("express");
 const mongoose=require("mongoose")
 const {v4:uuidv4}=require("uuid");
 const app=express();
+const cors= require('cors')
 app.use(express.json())//middleware
+app.use(cors())
 mongoose.connect("mongodb+srv://keerthana:keerthu-0401@cluster0.qeaumxm.mongodb.net/expense").then(()=>{
     console.log("Connected to database");
 })
